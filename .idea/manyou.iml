@@ -53,8 +53,11 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.10, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.5.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.8.1, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot (v6.2.1, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot_rails (v6.2.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.5, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.0.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.10.0, rbenv: 2.6.5) [gem]" level="application" />
@@ -87,6 +90,11 @@
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.1, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.3.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.9.3, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.9.4, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.9.1, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v3.9.1, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.9.4, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.7.4, rbenv: 2.6.5) [gem]" level="application" />
@@ -105,6 +113,7 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.9, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v4.2.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v3.7.0, rbenv: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webdrivers (v5.0.0, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, rbenv: 2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="xpath (v3.2.0, rbenv: 2.6.5) [gem]" level="application" />
@@ -122,6 +131,7 @@
         <option value="channel" />
         <option value="coffee:assets" />
         <option value="controller" />
+        <option value="factory_bot:model" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
@@ -132,12 +142,34 @@
         <option value="migration" />
         <option value="model" />
         <option value="resource" />
+        <option value="rspec:controller" />
+        <option value="rspec:feature" />
+        <option value="rspec:generators" />
+        <option value="rspec:helper" />
+        <option value="rspec:install" />
+        <option value="rspec:integration" />
+        <option value="rspec:job" />
+        <option value="rspec:mailer" />
+        <option value="rspec:model" />
+        <option value="rspec:observer" />
+        <option value="rspec:request" />
+        <option value="rspec:scaffold" />
+        <option value="rspec:system" />
+        <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
         <option value="system_test" />
         <option value="task" />
+        <option value="test_unit:controller" />
         <option value="test_unit:generator" />
+        <option value="test_unit:helper" />
+        <option value="test_unit:integration" />
+        <option value="test_unit:job" />
+        <option value="test_unit:mailer" />
+        <option value="test_unit:model" />
         <option value="test_unit:plugin" />
+        <option value="test_unit:scaffold" />
+        <option value="test_unit:system" />
       </list>
     </option>
     <option name="myGenerators">
@@ -148,6 +180,7 @@
         <option value="channel" />
         <option value="coffee:assets" />
         <option value="controller" />
+        <option value="factory_bot:model" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
@@ -158,12 +191,34 @@
         <option value="migration" />
         <option value="model" />
         <option value="resource" />
+        <option value="rspec:controller" />
+        <option value="rspec:feature" />
+        <option value="rspec:generators" />
+        <option value="rspec:helper" />
+        <option value="rspec:install" />
+        <option value="rspec:integration" />
+        <option value="rspec:job" />
+        <option value="rspec:mailer" />
+        <option value="rspec:model" />
+        <option value="rspec:observer" />
+        <option value="rspec:request" />
+        <option value="rspec:scaffold" />
+        <option value="rspec:system" />
+        <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
         <option value="system_test" />
         <option value="task" />
+        <option value="test_unit:controller" />
         <option value="test_unit:generator" />
+        <option value="test_unit:helper" />
+        <option value="test_unit:integration" />
+        <option value="test_unit:job" />
+        <option value="test_unit:mailer" />
+        <option value="test_unit:model" />
         <option value="test_unit:plugin" />
+        <option value="test_unit:scaffold" />
+        <option value="test_unit:system" />
       </list>
     </option>
   </component>
@@ -324,6 +379,7 @@
           <RakeTaskImpl description="Restart app by touching tmp/restart.txt" fullCommand="restart" id="restart" />
           <RakeTaskImpl description="Print out all defined routes in match order, with names" fullCommand="routes" id="routes" />
           <RakeTaskImpl description="Generate a cryptographically secure secret key (this is typically used to generate a secret for cookie sessions)" fullCommand="secret" id="secret" />
+          <RakeTaskImpl description="Run all specs in spec directory (excluding plugin specs)" fullCommand="spec" id="spec" />
           <RakeTaskImpl description="Report code statistics (KLOCs, etc) from the application or engine" fullCommand="stats" id="stats" />
           <RakeTaskImpl description="Runs all tests in test folder except system ones" fullCommand="test" id="test" />
           <RakeTaskImpl id="test">
@@ -398,11 +454,49 @@
               </RakeTaskImpl>
             </subtasks>
           </RakeTaskImpl>
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="spec:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="spec:statsetup" id="statsetup" />
+            </subtasks>
+          </RakeTaskImpl>
           <RakeTaskImpl description="" fullCommand="tmp" id="tmp" />
           <RakeTaskImpl description="" fullCommand="tmp/cache" id="tmp/cache" />
           <RakeTaskImpl description="" fullCommand="tmp/cache/assets" id="tmp/cache/assets" />
           <RakeTaskImpl description="" fullCommand="tmp/pids" id="tmp/pids" />
           <RakeTaskImpl description="" fullCommand="tmp/sockets" id="tmp/sockets" />
+          <RakeTaskImpl id="webdrivers">
+            <subtasks>
+              <RakeTaskImpl id="chromedriver">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="webdrivers:chromedriver:remove" id="remove" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:chromedriver:update" id="update" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:chromedriver:version" id="version" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="edgedriver">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="webdrivers:edgedriver:remove" id="remove" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:edgedriver:update" id="update" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:edgedriver:version" id="version" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="geckodriver">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="webdrivers:geckodriver:remove" id="remove" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:geckodriver:update" id="update" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:geckodriver:version" id="version" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl id="iedriver">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="webdrivers:iedriver:remove" id="remove" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:iedriver:update" id="update" />
+                  <RakeTaskImpl description="" fullCommand="webdrivers:iedriver:version" id="version" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
         </subtasks>
       </RakeTaskImpl>
     </option>
